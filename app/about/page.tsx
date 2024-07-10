@@ -12,6 +12,8 @@ import {
 } from "@/constants";
 import LeetCodeSVG from "@/components/LeetCodeSVG";
 import GitHubSVG from "@/components/GitHubSVG";
+import LeetCodeSVG2 from "@/components/LeetCodeSVG2";
+import GitHubSVG2 from "@/components/GitHubSVG2";
 
 const font = localFont({ src: "../../fonts/PPHatton-Ultralight.otf" });
 
@@ -134,7 +136,7 @@ const page = () => {
         </div>
       </div>
       <div style={font.style} className="w-[100%] flex justify-center mt-16">
-        <div className="w-[80%] max-md:w-[100%] flex justify-around max-md:flex-col max-md:gap-24 items-center">
+        <div className="w-[80%] max-sm:hidden max-md:w-[100%] flex justify-around max-md:flex-col max-md:gap-24 items-center">
           <div className="flex flex-col items-center justify-center">
             <Link className="w-[30vh] stroke-[0.1] hover:stroke-[0.3] flex justify-center" 
               href={`https://leetcode.com/u/Sabarish_S_2022/`}
@@ -162,25 +164,25 @@ const page = () => {
           </div>
         </div>
 
-        {/* <div className="w-[80%] max-sm:block hidden max-md:w-[100%] flex justify-around max-md:flex-col max-md:gap-24 items-center">
-          <div className="flex flex-col items-center justify-center">
-            <Link className="w-[30vh] stroke-[0.1] hover:stroke-[0.3] flex justify-center" 
+        <div className="w-[80%] max-sm:block hidden max-md:w-[100%] flex justify-around max-md:flex-col items-center">
+          <div className="flex flex-col items-center justify-center max-md:mb-10">
+            <Link className="w-[30vh] stroke-[0.2] hover:stroke-[0.3] flex justify-center" 
               href={`https://leetcode.com/u/Sabarish_S_2022/`}
             >
-              <LeetCodeSVG cursor={cursor} cardRef={cardRef} mouseOnCard={mouseOnCard} />
+              <LeetCodeSVG2 />
             </Link>
             <h1>LeetCode</h1>
           </div>
           <div className="flex flex-col items-center justify-center">
             <Link
               href={`https://github.com/S-a-b-a-r-i-s-h`}
-              className="w-[30vh] stroke-[0.1] hover:stroke-[0.3]"
+              className="w-[30vh] stroke-[0.2] hover:stroke-[0.3]"
             >
-              <GitHubSVG cursor={cursor2} cardRef={card2Ref} mouseOnCard2={mouseOnCard2} />
+              <GitHubSVG2 />
             </Link>
             <h1>GitHub</h1>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );

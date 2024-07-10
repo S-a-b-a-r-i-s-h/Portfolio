@@ -8,6 +8,8 @@ import Link from "next/link";
 import React, { useRef, useState } from "react";
 import SplitTextJS from "split-text-js";
 import localFont from "next/font/local";
+import LinkedInSVG2 from "@/components/LinkedInSVG2";
+import XSVG2 from "@/components/XSVG2";
 
 const font = localFont({ src: "../../fonts/PPHatton-Ultralight.otf" });
 
@@ -106,7 +108,7 @@ const page = () => {
           </h1>
         </div>
       </div>
-      <div style={font.style} className="tracking-widest leading-10 w-[80%] max-md:w-[100%] flex justify-around max-md:flex-col max-md:gap-12 items-center">
+      <div style={font.style} className="max-sm:hidden tracking-widest leading-10 w-[80%] max-md:w-[100%] flex justify-around max-md:flex-col max-md:gap-12 items-center">
         <div className="flex flex-col items-center justify-center">
           <Link
             className="w-[30vh] stroke-[0.2] hover:stroke-[0.4]"
@@ -134,6 +136,31 @@ const page = () => {
             onMouseLeave={() => setMouseOnCard2(false)}
           >
             <XSVG
+              cursor={cursor2}
+              cardRef={card2Ref}
+              mouseOnCard2={mouseOnCard2}
+            />
+          </Link>
+          <h1>X</h1>
+        </div>
+      </div>
+
+      <div style={font.style} className="hidden max-sm:block tracking-widest leading-10 w-[80%] max-md:w-[100%] flex justify-around max-md:flex-col max-md:gap-12 items-center">
+        <div className="flex flex-col items-center justify-center">
+          <Link
+            className="w-[30vh] stroke-[0.2] hover:stroke-[0.4]"
+            href={`https://www.linkedin.com/in/sabarish--s/`}
+          >
+            <LinkedInSVG2 />
+          </Link>
+          <h1>LinkedIn</h1>
+        </div>
+        <div className="flex flex-col items-center justify-center">
+          <Link
+            href={`https://x.com/Sabarish_S_`}
+            className="w-[30vh] stroke-[0.1] hover:stroke-[0.3]"
+          >
+            <XSVG2
               cursor={cursor2}
               cardRef={card2Ref}
               mouseOnCard2={mouseOnCard2}
