@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer
       style={font.style}
-      className="leding-10  min-h-[30vh] tracking-widest w-[100%] flex flex-col justify-end gap-16 items-center mt-10 max-md:mt-16"
+      className="mt-10 max-md:mt-16 leding-10 min-h-[30vh] tracking-widest w-[100%] flex flex-col justify-end gap-16 items-center"
     >
       <div className="flex max-md:flex-col w-[100%] max-md:gap-10 justify-center items-center">
         <div className="flex flex-col gap-4 w-full w-[50%] text-3xl max-md:text-xl max-mad:w-[100%] justify-center items-center">

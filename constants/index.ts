@@ -24,16 +24,18 @@ export const projects = [
 ]
 export const testimonials = [
     {
-        name: "Asha Miami",
+        name: "Asha Manami",
         img: "/assets/ashamiami.jpg",
         position:"Ex-Mediatek Engineer",
-        description: "I had the pleasure of working with sabarish on a recent project, and I was highly impressed with his skills and dedication. Despite still being in college, he demonstrated strong technical abilities, a quick learning aptitude, and excellent problem-solving skills. His contributions were valuable, and he showed great potential for a successful career in software development. I highly recommend sabarish for any future opportunities."
+        description: "I had the pleasure of working with sabarish on a recent project, and I was highly impressed with his skills and dedication. Despite still being in college, he demonstrated strong technical abilities, a quick learning aptitude, and excellent problem-solving skills. His contributions were valuable, and he showed great potential for a successful career in software development. I highly recommend sabarish for any future opportunities.",
+        linkedin: "https://www.linkedin.com/in/asha-manami/"
     },
     {
-        name: "Abhimanyu",
+        name: "Abhimanyu R B",
         img: "/assets/abhimanyu.jpg",
         position:"ToByaag - Founder",
-        description: "Sabarish is a key member of our community, actively participating in various activities and always staying updated. His creative ideas and contributions to web design and community development have played a crucial role in our growth. We greatly appreciate his dedication and innovative spirit, which make him an essential part of our team."
+        description: "Sabarish is a key member of our community, actively participating in various activities and always staying updated. His creative ideas and contributions to web design and community development have played a crucial role in our growth. We greatly appreciate his dedication and innovative spirit, which make him an essential part of our team.",
+        linkedin: "https://www.linkedin.com/in/abhimanyurb/"
     }
 ]
 

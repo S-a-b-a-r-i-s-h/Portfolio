@@ -16,7 +16,7 @@ const cinzel_decorative = Cinzel_Decorative({
 
 export const metadata: Metadata = {
   title: "Sabarish - Portfolio",
-  description: "Sabarish is a Next.js developer based in Kerala, India.",
+  description: "I am a Next.js web developer based in Kerala, India, passionate about coding and design. As a Computer Science and Engineering student, I love working with communities and startups that share a similar mindset to make a positive change in society.",
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title:
       "Sabarish - Portfolio",
     description:
-      "Sabarish is a Next.js developer based in Kerala, India.",
+      "I am a Next.js web developer based in Kerala, India, passionate about coding and design. As a Computer Science and Engineering student, I love working with communities and startups that share a similar mindset to make a positive change in society.",
     images: siteMetadataConfig.ogImage,
     url: "https://sabarishs.vercel.app",
   },
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title:
       "Sabarish - Portfoio",
     description:
-      "Sabarish is a Next.js developer based in Kerala, India.",
+      "I am a Next.js web developer based in Kerala, India, passionate about coding and design. As a Computer Science and Engineering student, I love working with communities and startups that share a similar mindset to make a positive change in society.",
     images: siteMetadataConfig.ogImage,
   },
 };
