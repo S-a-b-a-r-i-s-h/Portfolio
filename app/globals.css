@@ -46,6 +46,7 @@ html {
   top: 0;
   left: 0;
   width: 100vw;
+  height: 100vh;
   /* height: 100vh; */
   background-color: #d9dbdb;
   padding: 2em;
@@ -96,14 +97,20 @@ html {
   width: 100%;
   align-items: center;
   padding-top: 2em;
+  /* border: 2px solid red; */
+  height: 90vh;
 }
 
 .menu-links {
   display: flex;
   flex-direction: column;
-  gap: 2.75rem; /* Equivalent to gap-11 (11 * 0.25rem) */
+  gap: 1rem; /* Equivalent to gap-11 (11 * 0.25rem) */
   font-size: 4.5rem; /* Equivalent to text-7xl */
   color: RGB(27, 27, 27);
+  /* border: 2px solid green; */
+  height: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .menu-preview {
@@ -120,7 +127,7 @@ html {
 .menu-link-item {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   /* border: 2px solid red; */
-  padding-top: 0.5em ;
+  /* padding-top: 0.5em ; */
 }
 .menu-link-item-holder {
   position: relative;

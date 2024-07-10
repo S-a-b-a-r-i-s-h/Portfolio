@@ -57,7 +57,7 @@ export default function Home() {
 
   return (
     <div className="w-[100%] main-2 rounded-b-3xl" ref={container}>
-      <section className="h-[90vh] flex flex-col items-center justify-center pt-12"
+      <section className="h-[90vh] flex flex-col items-center justify-center pt-12 mb-16"
         data-bgcolor="rgb(27,27,27)"
         data-textcolor ="#dbd9d9"
       >
