@@ -37,23 +37,9 @@ export const testimonials = [
     }
 ]
 
-// Development
-// HTML
-// Tailwind CSS
-// JavaScript
-// TypeScript
-// Node.js
-// MongoDB
+const webUrl = 'sabarishs.vercel.app'
 
-// Frameworks & Libraries
-// ReactJS
-// Next.js
-// Framer Motion
-// GSAP
-
-// Tools & Soft Skills
-// Git
-// GitHub
-// Leadership
-// Communication
-// Teamwork
+export const siteMetadataConfig: { ogImage: string } = {
+    // ogImage: '/assets/opengraph-image.jpg',
+    ogImage: `https://${webUrl}/assets/opengraph-image.jpg`,
+}
