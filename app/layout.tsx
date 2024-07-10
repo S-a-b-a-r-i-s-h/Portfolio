@@ -1,4 +1,4 @@
-import Cursor from "@/components/cursor";
+import Cursor from "@/components/Cursor";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import type { Metadata } from "next";

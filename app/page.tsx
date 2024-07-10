@@ -1,12 +1,9 @@
 "use client";
-import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
-import Scrollbar from 'smooth-scrollbar';
 import localFont from 'next/font/local'
 
 import { useEffect, useRef } from "react";
-import Marquee from "@/components/Marquee";
 import Link from "next/link";
 import Testimonials from "@/components/Testimonials";
 gsap.registerPlugin(ScrollTrigger);

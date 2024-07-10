@@ -1,4 +1,5 @@
 "use client"
+
 import { projects } from '@/constants'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'

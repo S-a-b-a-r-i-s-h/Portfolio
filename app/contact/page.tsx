@@ -1,5 +1,5 @@
 "use client";
-import LinkedInSVG from "@/components/linkedInSVG";
+import LinkedInSVG from "@/components/LinkedInSVG";
 import XSVG from "@/components/XSVG";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
