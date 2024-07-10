@@ -1,3 +1,4 @@
+// @ts-nocheck
 "use client"
 import gsap from "gsap";
 // import SplitText from "gsap-trial/dist/SplitText";

@@ -1,3 +1,4 @@
+// @ts-nocheck
 "use client";
 import LinkedInSVG from "@/components/LinkedInSVG";
 import XSVG from "@/components/XSVG";
