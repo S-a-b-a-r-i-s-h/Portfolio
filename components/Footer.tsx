@@ -60,14 +60,14 @@ const Footer = () => {
           <div className="flex justify-center items-center gap-4 text-lg w-[10%]"> 
             <Link
                 className="bg-[#dbd9d9] text-[rgb(27,27,27)] font-bold rounded-full pt-2 pb-2 pl-4 pr-4"
-                href={`https://drive.google.com/uc?export=download&id=1PkErlH14njLpdiGmw1HB-4dAHBBYkQLP`}
+                href={`https://drive.google.com/uc?export=download&id=17oe2n3oZBtO9YDPGysGFV6cOwgtbAQvc`}
             >
               Download
             </Link>
 
             <Link
               className="text-[#dbd9d9] font-bold rounded-full pt-2 pb-2 pl-4 pr-4"
-              href={`https://drive.google.com/file/d/1PkErlH14njLpdiGmw1HB-4dAHBBYkQLP/view?usp=drivesdk`}
+              href={`https://drive.google.com/file/d/17oe2n3oZBtO9YDPGysGFV6cOwgtbAQvc/view?usp=drivesdk`}
             >
               Preview
             </Link>
