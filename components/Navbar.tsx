@@ -52,12 +52,12 @@ const Navbar = () => {
     <div className='menu-container' ref={container}>
         <div className={`menu-bar`}>
             <div className={`menu-logo`} onClick={toggleMenuName}>
-                <Link href={`/`} className={`${isMenuOpen ? "text-[RGB(27,27,27)] delay-700" : "text-[#dbd9d9] delay-[1500ms]"} text-2xl font-medium max-sm:text-xl`}>Sabarish</Link>
+                <Link href={`/`} className={`${isMenuOpen ? "delay-700 hidden" : "text-[#dbd9d9]"} text-[#dbd9d9] text-2xl font-medium max-sm:text-xl nav-text`}>Sabarish</Link>
             </div>
                 <div className={`menu-open w-7 h-7 ${isMenuOpen ? "open text-[RGB(27,27,27)] delay-700" : ""}`} onClick={toggleMenu} >
                     <div className="hamburger w-10 h-10" onClick={toggleMenu}>
-                        <span className={`${isMenuOpen ? "bg-[RGB(27,27,27)] delay-700": "bg-[#dbd9d9] delay-[1500ms]"}`}></span>
-                        <span className={`${isMenuOpen ? "bg-[RGB(27,27,27)] delay-700": "bg-[#dbd9d9] delay-[1500ms]"}`}></span>
+                        <span className={`${isMenuOpen ? "bg-[RGB(27,27,27)] delay-700": "bg-[#dbd9d9] delay-[1500ms]"} hamburgers`}></span>
+                        <span className={`${isMenuOpen ? "bg-[RGB(27,27,27)] delay-700": "bg-[#dbd9d9] delay-[1500ms]"} hamburgers`}></span>
                     </div>
                 </div>
             {/* </div> */}

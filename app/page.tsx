@@ -41,6 +41,29 @@ export default function Home() {
         // markers: true,
       }
     })
+    gsap.to('.nav-text', {
+      color: "rgb(27,27,27)",
+      scrollTrigger: {
+        trigger: ".main",
+        start: "top 70%",
+        end: "top 15%",
+        scrub: 2,
+        // markers: true,
+        toggleActions: "play none none reverse",
+      }
+    })
+    gsap.to('.hamburgers', {
+      borderColor: "rgb(27,27,27)",
+      borderWidth: "1px",
+      scrollTrigger: {
+        trigger: ".main",
+        start: "top 70%",
+        end: "top 15%",
+        scrub: 2,
+        toggleActions: "play none none reverse",
+      }
+    })
+    
     gsap.to(".btn", {
       backgroundColor: "rgb(27,27,27)",
       color: "#dbd9d9",
