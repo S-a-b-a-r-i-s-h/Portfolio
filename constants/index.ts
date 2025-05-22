@@ -4,6 +4,12 @@ export const toolsAndSoftSkills = ["Git", "GitHub", "Leadership", "Communication
 
 export const projects = [
     {
+        title: "To-Gather",
+        img: "/assets/to-gather.png",
+        bg: "/assets/to-gather.png",
+        link: "https://tgcommunity.vercel.app/"
+    },
+    {
         title: "Dev Overflow",
         img: "/assets/devoverflow-bg1.png",
         bg: "/assets/devoverflow-bg1.png",
