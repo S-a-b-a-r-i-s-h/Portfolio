@@ -58,16 +58,15 @@ const Footer = () => {
         <div className="flex flex-col gap-4 w-[50%] max-mad:w-[100%] text-3xl max-md:text-xl  w-full justify-center items-center">
           <h1 className="text-center">Check out my Resume here</h1>
           <div className="flex justify-center items-center gap-4 text-lg w-[10%]"> 
-            <Link
+            {/* <Link
                 className="bg-[#dbd9d9] text-[rgb(27,27,27)] font-bold rounded-full pt-2 pb-2 pl-4 pr-4"
-                href={`https://drive.google.com/uc?export=download&id=17oe2n3oZBtO9YDPGysGFV6cOwgtbAQvc`}
-            >
+                href={`https://drive.google.com/uc?export=download&id=17oe2n3oZBtO9YDPGysGFV6cOwgtbAQvc`}            >
               Download
-            </Link>
-
+            </Link> */}
+            
             <Link
-              className="text-[#dbd9d9] font-bold rounded-full pt-2 pb-2 pl-4 pr-4"
-              href={`https://drive.google.com/file/d/17oe2n3oZBtO9YDPGysGFV6cOwgtbAQvc/view?usp=drivesdk`}
+              className="bg-[#dbd9d9] text-[rgb(27,27,27)] font-bold rounded-full pt-2 pb-2 pl-5 pr-5"
+              href={`https://drive.google.com/drive/folders/1PgQ0Yh2oeaWVDU_7zCdwz3LndCj2Gkhf?usp=drive_link`}
             >
               Preview
             </Link>
